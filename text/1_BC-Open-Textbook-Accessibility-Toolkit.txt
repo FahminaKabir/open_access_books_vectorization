@@ -1,0 +1,1166 @@
+BC Open Textbook Accessibility Toolkit
+
+BC Open Textbook Accessibility Toolkit
+
+AMANDA COOLIDGE, SUE DONER, AND TARA ROBERTSON
+
+BC Open Textbook Accessibility Toolkit by BCcampus is licensed under a Creative Commons Attribution 4.0 International License, except
+where otherwise noted.
+Unless otherwise noted, this book is released under a Creative Commons Attribution 4.0 Unported License also known as a CC-BY license.
+This means you are free to copy, redistribute, modify or adapt this book. Under this license, anyone who redistributes or modifies this
+textbook, in whole or in part, can do so for free providing they properly attribute the book as follows:
+
+B.C. Open Textbook Accessibility Toolkit by Amanda Coolidge, Sue Doner, and Tara Robertson used
+under a CC-BY 4.0 international license.
+Additionally, if you redistribute this textbook, in whole or in part, in either a print or digital format, then you must retain on every physical
+and/or electronic page the following attribution:
+
+Download this book for free at http://open.bccampus.ca
+If you use this textbook as a bibliographic reference, then you can cite the book as follows:
+
+Amanda Coolidge, Sue Doner, and Tara Robertson. (2015). B.C. Open Textbook Accessibility Toolkit.
+British Columbia: BCcampus. Retrieved from http://opentextbc.ca/accessibilitytoolkit/
+For questions regarding this licensing, please contact opentext@bccampus.ca. To learn more about BCcampus Open Textbook project, visit
+http://open.bccampus.ca
+
+Contents
+
+About the Toolkit
+
+vi
+
+Acknowledgments
+
+viii
+
+Key Concepts
+Universal Design
+Using Personas
+
+2
+4
+
+Best Practices
+Organizing Content
+Images
+Tables
+Weblinks
+Multimedia
+Formulas
+Font size
+Colour Contrast
+
+13
+16
+23
+26
+29
+34
+38
+40
+
+Conclusion
+Next Steps
+
+45
+
+BC Open Textbook Authoring Guide
+
+46
+
+Appendix: Checklist for Accessibility Toolkit
+
+47
+
+Appendix: Redesign or Accommodation Activity Guidelines
+
+49
+
+Versioning History
+
+50
+
+About the Toolkit
+
+The Accessibility Toolkit is a collaboration between BCcampus and the Centre for Accessible Post-secondary
+Education Resources BC (CAPER-BC). BCcampus is a publicly funded organization that uses information
+technology to connect the expertise, programs, and resources of all B.C. post-secondary institutions under a
+collaborative service delivery framework. BCcampus is the lead organization for the open textbook project in
+BC. CAPER-BC provides accessible learning and teaching materials to students and instructors who cannot use
+conventional print because of disabilities.
+The Accessibility Toolkit has also been translated into French. http://opentextbc.ca/troussedoutildaccessibilite/
+
+About the British Columbia Open Textbook Project
+The Accessibility Toolkit was created as part of the B.C. Open Textbook Project. The B.C. Open Textbook Project
+began in 2012 with the goal of making post-secondary education in British Columbia more accessible by reducing
+student cost through the use of openly licensed textbooks. The BC Open Textbook Project is administered by
+BCcampus and funded by the British Columbia Ministry of Advanced Education.
+Open textbooks are open educational resources (OER); they are instructional resources created and shared in
+ways so that more people have access to them. This is a different model than traditionally copyrighted materials.
+OER are defined as teaching, learning, and research resources that reside in the public domain or have been
+released under an intellectual property license that permits their free use and re-purposing by others (Hewlett
+Foundation). Our open textbooks are openly licensed using a Creative Commons license, and are offered in
+various e-book formats free of charge, or as printed books that are available at cost. For more information
+about this project, please contact opentext@bccampus.ca. If you are an instructor who is using this book for a
+course, please let us know.
+
+What Is an Open Textbook?
+Open textbooks are open educational resources (OERs), which are instructional resources created and shared
+using open licences. This means that they are free for others to use, copy, distribute, modify, or reuse. Open
+textbooks can be a useful pedagogical tool, as their content may be modified and customized to meet specific
+learning objectives of a particular course.
+
+vi
+
+ABOUT THE TOOLKIT • vii
+
+Why an Accessibility Toolkit?
+The focus of many open textbook projects is to provide access to education at low or no cost. But what does
+access mean? If the materials are not accessible for each and every student, do they fulfill the mandate to deliver
+fully open textbooks?
+The goal of the Accessibility Toolkit is to provide the needed resources needed to each content creator,
+instructional designer, educational technologist, librarian, administrator, and teaching assistant to create a truly
+open and accessible textbook — one that is free and accessible for all students.
+As you work through the content of the Accessibility Toolkit, you will find that the suggestions provided are
+intended for the non-technical user. If you are looking for more technical descriptions of how to make your work
+accessible, we suggest you review the WCAG (Web Content Accessibility Guidelines).
+
+To Care & Comply: Accessibility of Online Course Content
+A look at Portland Community College’s web accessibility guidelines and how supporting students with
+disabilities is a shared responsibility across the college. Video includes stories from students whose education is
+impacted by inaccessible web content and ways faculty and staff can improve online course materials to make
+course content more accessible. This is an OER (Open Educational Resourse).
+https://www.youtube.com/watch?v=eks3r-nE9lU&feature=youtu.be
+
+Acknowledgments
+
+Thank you to…
+CAPER-BC and Tara Robertson for their continued involvement and work on ensuring educational resources are
+accessible to all students.
+Sue Doner, of Camosun College, for her work in Universal Design and the Accessibility Checkpoints.
+Amanda Coolidge for managing the project and for providing enthusiastic support.
+The student testers: Laura Bulk, Mila Cherny, Charmaine Co, Lauren Rubin, Shruti Shravah, Steven Woo, Chazz
+Young, who were enthusiastic and generous collaborators.
+Sarah Horton and Whitney Queensbury for giving us permission to remix their personas of people with
+disabilities.
+Penn State University for giving us permission to use their accessibility guidelines on formulas and equations.
+Cynthia Ng for working on the personas.
+Hilda Anggraeni for creating and adapting the user personas.
+BCcampus for leading this initiative to ensure that open textbooks are accessible both from a financial and access
+perspective.
+
+viii
+
+Key Concepts
+
+1
+
+Universal Design
+
+Universal Design is the process of creating products (devices, environments, systems, and processes) that are
+usable by people with the widest possible range of abilities, operating within the widest possible range of
+situations (environments, conditions, and circumstances). Universal Design emerged from the slightly earlier
+concept of being barrier-free, the broader accessibility movement, and adaptive and assistive technology. It also
+seeks to blend aesthetics into these core considerations.
+Let’s review some common definitions of Universal Design.
+
+Definition 1:
+Universal Design or Universal Instructional Design (UID)
+is an approach to teaching that consists of the proactive design and use of inclusive instructional and evaluation
+strategies. This approach provides academic access to a broad range of learners, including students with
+disabilities, while:
+• maintaining academic standards […]
+• reducing the need to having to retrofit after a course is already underway
+
+1
+
+Definition 2:
+Universal Instructional Design (UID)
+is an approach to designing course instruction, materials and content to benefit people of all learning styles without
+adaptation or retrofitting. UID provides equal access to learning, not simply equal access to information. UID
+allows the student to control the method of accessing information while the instructor monitors the learning process
+and initiates any beneficial methods. …It should be noted that UID does not remove academic challenges; it
+2
+removes barriers to access.
+
+1. FAIR (Facilitating Accessible Instruction & Resources). University of Victoria
+2. Universal Design for Learning. Ohio State University
+
+2
+
+UNIVERSAL DESIGN • 3
+
+Why Universal Design?
+For our purposes, we frame the practice of using Universal Design in a holistic and manageable way, and begin by
+addressing the barriers that are easy to anticipate and proactively re-mediate. This toolkit, therefore, will provide
+guidance to you if the answers to any of the following questions is “yes”:
+• Do I have visual materials that present core concepts that not all students may be able to see or understand?
+• Do I have multimedia (audio, video) materials that present core concepts that not all students may be able to
+be hear, see, or access?
+• Do I have documents that present core concepts in a format that not all students may be able to access?
+For the purpose of the Accessibility Toolkit, we focus on an adjunct to Universal Design, that being Universal
+Design for Learning (UDL), which is a set of principles for curriculum development that gives all individuals
+equal opportunities to learn. UDL provides a blueprint for creating instructional goals, methods, materials, and
+assessments that work for everyone. Rather than a single, one-size-fits-all solution, it offers a flexible approach
+3
+that can be customized and adjusted for individual needs.
+
+3. http://www.udlcenter.org/aboutudl/whatisudl
+
+Using Personas
+
+Using Personas
+Designers use personas to represent the different types of people who may be accessing a website or product.
+In this toolkit, we have used personas to help you keep in mind the various types students and their various
+abilities while you’re developing content. We’ve also used these personas to introduce you to different types of
+hardware and software that students typically use.
+We’ve adapted the personas from Sarah Horton and Whitney Queensbury’s book A Web for Everyone: Designing
+Accessible User Experience to be more specific to postsecondary students with print disabilities in British
+Columbia (based on data from CAPER-BC and the students who attended our focus group).
+These are some of the students who will be reading the open textbooks that you write.
+
+Mark
+
+Mark is 17 years old. He is a future heavy-duty mechanic with a learning disability that was diagnosed in Grade
+4
+
+USING PERSONAS • 5
+
+8. Mark absorbs information best by hearing it and enjoys making and fixing stuff with his hands. He’s in his first
+semester of college taking trades courses and loving it. Mark can’t wait to complete the foundation courses and
+move into his first apprenticeship placement. He lives at home with his family who shares one computer.
+Ability: Difficulty absorbing a lot of information when reading it
+Aptitude: Basic technology user
+Attitude: Prefers to do things himself, but can get easily frustrated or impatient, especially with technology
+Assistive technology: mp3 player
+Format preference: mp3 so that he can and listen on the go
+Listen to an mp3 recording of a synthetic voice.
+
+Jacob
+
+Image from Horton, Sarah; Quesenbery, Whitney. 2014. A Web for Everyone. New York:
+Rosenfeld Media. rosenfeldmedia.com/books/a-web-for-everyone/
+
+Jacob is a fourth-year business administration student who is blind and a bit of a geek. Jacob is 28 years old and
+can’t wait to get his last few classes out of the way so he can start his career. He shares an apartment with his
+girlfriend.
+Ability: Blind since birth
+Aptitude: Skilled technology user
+
+6 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+Attitude: Digital native, early adopter, persists until he gets it
+Assistive technology:
+• Screen reader (JAWS on his laptop, VoiceOver on his iPhone)
+• Victor Stream
+• Audio recorder (to take notes)
+• Refreshable Braille display
+Format preference: Electronic text, which he can easily use in JAWS and with VoiceOver; detests PDFs
+
+Video of student using JAWS (0s-1:31)
+Listen to a computer science student’s screen reader.
+
+USING PERSONAS • 7
+
+Diana
+
+Diana is retraining to be a personal coach after she experienced vision loss and was unable to continue working
+as a bus driver. She is 48 years old and taking many of her classes online. She lives with her husband.
+Ability: Gradual loss of vision; can read using magnifier easily, but eyes fatigue
+Aptitude: Intermediate technology user
+Attitude: Has a routine and likes to stick to it
+Assistive technology:
+• ZoomText
+• Text-to-Speech software (TextAloud)
+Format preference: PDF or electronic text that she can enlarge on her computer or listen to using TextAloud.
+
+8 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+Video of student using ZoomText (0-1:31)
+
+Trish
+
+Horton, Sarah; Quesenbery, Whitney. 2014. A Web for Everyone. New York: Rosenfeld
+Media. rosenfeldmedia.com/books/a-web-for-everyone/
+
+USING PERSONAS • 9
+
+Trish is a college student taking university transfer courses. She has a physical disability and uses print books.
+She is 18 years old and lives with her family.
+Ability: Brain damage in accident caused paralysis and motor issues
+Aptitude: Basic computer user, intermediate iPad user
+Attitude: Generally dependent on family, so enjoys reading and studying independently
+Assistive technology:
+• iPad
+• Motorized wheelchair
+Format preference: e-book formats, such as PDF, that can easily be loaded onto her iPad
+
+Ann
+
+Ann is a chemistry major with ADHD, a learning disability that makes it difficult for her to concentrate. She is 20
+years old and hopes to become a pharmacist. Ann lives in a dorm on campus with two other female students.
+Ability: ADHD, has difficulty concentrating
+Aptitude: Intermediate computer user
+Attitude: Struggles at times, but very appreciative of how much learning software has helped her
+Assistive technology: Learning software (Kurzweil on laptop)
+
+10 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+Format preference: Reading and listening at the same time
+
+Video of student using Kurzweil on a computer (1:32-4:07)
+
+Steven
+
+Horton, Sarah; Quesenbery, Whitney. 2014. A Web for Everyone. New York: Rosenfeld
+Media. rosenfeldmedia.com/books/a-web-for-everyone/
+
+USING PERSONAS • 11
+
+Steven is an English major who is deaf. He is 23 years old and likes the flexibility of taking online classes. He
+lives by himself.
+Ability: Native language is ASL; can speak and read lips
+Aptitude: Intermediate technology user
+Attitude: Can be annoyed about accessibility, such as lack of captions.
+Assistive technology:
+• CART (Communication Access Real-Time Transcription) for lectures (Watch a video demonstration of
+CART. Note that this video is also captioned.)
+• Captions
+• Video chat
+Format preference: No preference for textbook format, but without captions video is meaningless.
+
+Best Practices
+
+12
+
+Organizing Content
+
+Organizing content so it has a logical flow just makes sense. Using chapters, headings, and subheadings to
+organize content allows students to clearly see how the main concepts are related. Headings are one of the main
+ways that students using a screen reader navigate through a chapter.
+
+Who Are You Doing This For?
+Everyone benefits from having content that’s clearly organized. In addition, well-organized content supports
+students who:
+• Have a learning disability, for example like Ann
+• Are blind or have low vision, for example like Jacob
+
+Image of Ann, original Artwork by BCcampus
+
+Ann: “This allows me to go back and easily find the important points.”
+
+13
+
+14 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+Image from Horton, Sarah; Quesenbery, Whitney. 2014. A Web for Everyone. New York: Rosenfeld Media.
+rosenfeldmedia.com/books/a-web-for-everyone/
+
+Jacob: “This gives me more control in navigating through the chapter. I can skip to the relevant section, instead of
+having to read the whole thing in a liner fashion.”
+
+What Do You Need to Do?
+Headings help to identify the hierarchical structure of a document (e.g., sections, sub-sections). Headings provide
+a visual cue that helps sighted readers quickly navigate through sections of a document, skimming through content
+until they find a section they are looking for. Similarly, headings create logical divisions in the content and allow
+a non-sighted user to navigate a page or document easily using a screen reader.
+When it comes to using visual references to indicate the hierarchy and structure of a document, you may be
+accustomed to just changing the font, enlarging the type size, making it bold or underlined or italicized, creating
+the impression of a heading. This approach presents problems when creating material with accessibility in mind
+because screen readers won’t identify the text as a heading. Instead, a screen reader will just “read” through the
+text of a heading as if it were part of another paragraph of content, missing your intended cues about structure
+and organization.
+
+ORGANIZING CONTENT • 15
+
+To create effective, accessible headings: In Pressbooks use styles in the visual editor to tag sections with
+Heading 1, sub-sections with Heading 2, and sub-sections of sub-sections with Heading 3.
+
+Heading examples from Pressbooks Visual
+Style Editor.
+
+Images
+
+In this section, we provide recommendations to guide your inclusion of accessible, image-based content.
+
+What Are Images?
+Images include: photographs, diagrams, pictures, charts, graphs, maps
+File types: .gif, .jpg, .png
+
+Before You Begin
+Why Are You Including the Images You Have Selected?
+Before you can determine what you need to do to make an image accessible, you first need to identify its purpose
+or value to your textbook. Consider the following questions:
+1. Does your image serve a functional purpose? In other words, is it conveying non-text content to students? If
+so, you should:
+• Provide a text alternative that serves the equivalent purpose of the non-text material
+• Not use colour as the only visual means of conveying information
+
+1
+
+2
+
+2. Does your image serve more of a decorative purpose? In other words, is it primarily a design element that does
+not convey content? If so, you should:
+• Avoid unnecessary text descriptions
+
+Who Are You Doing This For?
+This work supports students who:
+1. Web Content Accessibility Guidelines (WCAG) 2.0, Guideline 1.1 Text Alternatives. Accessed from: http://www.w3.org/TR/
+WCAG20/#text-equiv
+2. Web Content Accessibility Guidelines (WCAG) 2.0, Guideline 1.4.1 Use of Color. Accessed from: http://www.w3.org/TR/
+WCAG20/#visual-audio-contrast
+16
+
+IMAGES • 17
+
+• Are blind or have low vision, for example Jacob
+• Have poor contrast vision
+• Are colour blind and cannot differentiate between certain colours
+• Are using a device with monochrome display
+• Have a form of cognitive disability
+
+Jacob. Image from Horton, Sarah; Quesenbery, Whitney. 2014. A Web for Everyone.
+New York: Rosenfeld Media. rosenfeldmedia.com/books/a-web-for-everyone/
+
+What Do You Need To Do?
+Functional Images and Alternative Text Descriptions
+Consider what your content page would look like if the images didn’t load. Now try writing alternative text for
+each image that would work as a replacement and provide the same service as the image.
+As you work on developing your alternative text descriptions, keep the following recommendations and
+guidelines in mind:
+• Remember that alternative text must convey the content and functionality of an image and is rarely a
+literal description of the image (e.g., “photo of cat”). Rather than providing what the image looks like,
+3
+alternative text should convey what the content of the image is and what it does.
+
+3. WebAIM (2014). Alt text blunders. Accessed from: http://webaim.org/articles/gonewild/#alttext
+
+18 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+• For relatively simple images (e.g., photographs, illustrations), try to keep your text descriptions short. You
+should aim to create a brief alternative (one or two short sentences) that is an accurate and concise
+equivalent to the information in the image.
+
+• For more complex images (e.g., detailed charts, graphs, maps), you will need to provide more than a one- to
+two-sentence description to ensure all users will benefit from the content or context you intended to
+provide. In these cases, you should either provide the details in the text surrounding the image or write a
+longer text description that students can link to on a separate page. You should still include a short text
+description (one to two sentences) that tells students where they can find the details you have provided in
+the longer description.
+
+• Leave out any unnecessary information. For example, you do not need to include information like “image
+of…” or “photo of…”; assistive technologies will automatically identify the material as an image, so
+including that detail in your alternative description is superfluous.
+
+• Avoid redundancy of content in your alternative description. Don’t repeat the same information that already
+appears in text adjacent to the image.
+Here are two examples of alternative text descriptions.
+Example 1 (from Introduction to Sociology):
+
+IMAGES • 19
+
+Figure 20.11. The slum city and the global city: the Favéla
+Morro do Prazères in Rio de Janeiro and the London
+financial district show two sides of global urbanization
+(Photos courtesy of dany13/Flickr and Peter Pearson/
+Flickr)
+
+This photograph could be described in this way:
+Figure 20.11 includes two photos. The first photo shows crowded buildings located on the hillside. They are
+small and shabby. The second photo shows magnificent buildings located by water.
+
+Example 2 (Figure 18.1. Two-Atom, Double-Flask Diagram from Introductory Chemistry):
+
+When the stopcock is opened between the flasks, the two atoms can distribute in four possible ways.
+
+20 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+Figure 18.1 could be described as follows:
+Figure 18.1 shows a diagram with five pairs of circles. All of these circles are open. The left one opens on
+the right and the right one opens on the left. They are connected with lines at their open points. One pair is
+located on the left and between their two connecting lines is a black dot with a red vertical line going across.
+The other four pairs arranged in a column are located on the right and between the connecting lines of each pair
+is a a small circle with a red horizontal line going through. A right arrow labelled Open Stopcock links the pair
+sitting on the left to the four pairs on the right. Each of these five pairs has two dots (green and blue) arranged
+in different patterns. For the pair on the left, the two dots, sitting obliquely, appear only in left circle. The green
+dot is at the left upper part of the circle and following it the blue dot is close to the bottom right. The first pair
+on the right has the similar situation. The only difference is that the green dot is at the right upper part of the
+circle and the blue dot is close the middle left. The second pair has a green dot in the centre of the left circle
+and a blue dot in the centre of the right circle. The third pair has a blue dot sitting at the left upper part of the
+left circle and a green dot sitting close to bottom right of the right circle. For the last pair, the two dots appear
+in oblique direction only in the right circle. A green dot is at the right upper part of the circle and a blue dot is
+close to bottom left.
+
+Using Colour
+Consider what your images would look like if they only displayed in black and white. Would any necessary
+context or content be lost if the colour was “turned off”? Images should not rely on colour to convey information;
+if the point you are making depends on colour to be understood, you may need to edit your image or formatting so
+that concepts presented are not lost to those who are colour blind or who require high contrast between colours.
+
+In this example of a bar chart, colour is the sole means of
+communicating the data.
+
+Example 1 — not accessible:
+In this basic bar chart, colour is the only means by which information is conveyed.
+
+IMAGES • 21
+
+This view of the same bar chart displays how the chart might
+appear to a student who is colour blind, or whose device does not
+display colour. All of the meaningful data is lost.
+
+Example 2 — not accessible:
+For a student who is colour blind or who has poor contrast vision, all of the relevant information is lost in a colour
+chart.
+
+Example 3 — accessible:
+Students who are colour blind can distinguish between high-contrast shades. In this example, contextual labels
+have been added to each bar at the bottom of the chart. Note that the chart will still require an alternative text
+description.
+
+22 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+In this view of the bar chart, high-contrast colours have been used
+so that shading differences will still display in grey scale. Text
+labels have also been added so that the data is not just being
+communicated with colour.
+
+Decorative Images
+If your image does not add meaning and is included for decorative or design purposes only, the space for the
+alternative text description should still be included with your image, but it should be left empty or blank. Assistive
+technologies will detect the image, and by leaving the alternative text description blank, you will signal to the
+student that there isn’t any contextual content embedded. Including alternative text descriptions for decorative
+images “simply slows the process down with no benefit because the screen-reading software vocalizes the content
+4
+of the [alternative text description], whether that alternative text adds value or not.”
+
+4. webAccess (2012). Adapted from: Top Ten Tips for making your website accessible. Accessed from: http://webaccess.berkeley.edu/
+developer-information/top-ten-tips/#alt
+
+Tables
+
+In this section, we provide guidelines and recommendations for formatting tables.
+
+What Are Tables?
+Tables: In this context, we are referring to data tables, which are tables that include row and/or column header
+information to categorize content)
+File types: .doc, .html, .pdf
+
+Before You Begin
+Are Your Tables Simple or Complex?
+A simple table includes a maximum of one header column and/or one header row. A complex table includes more
+1
+than one header column and/or header row, and may include merged or split cells.
+We recommend you make every effort to keep data tables as simple in structure as possible. The more complex
+the design of a data table, the less accessible it will be for some students using screen-reading technology to access
+their textbook materials. Screen readers move left-to-right, top-to-bottom, one cell at a time, and because a screen
+reader does not repeat a cell, merging or splitting cells may affect the reading order of a table.
+
+Who Are You Doing This For?
+This work supports students who:
+• Are blind or have low vision, for example Jacob
+• Have a form of cognitive disability, for example Ann
+
+1. AccessAbility: Accessibility and Usability at Penn State. Table Headers and Captions. Accessed from: http://accessibility.psu.edu/tables
+23
+
+24 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+Profile of Anne, original Artwork by BCcampus
+
+What Do You Need To Do?
+In the same way that your content hierarchy needs true headings and structure, tables need a properly defined
+structure to be accessible. This means that you must add row and column headers to define the different sections
+of data. Screen readers read tables horizontally – cell by cell, row by row – and row and column headers help give
+the context of the data in each cell to students who are blind, have low vision, or have a cognitive disability.
+
+Creating Simple Tables
+A simple table includes:
+1. A table title or caption
+2. Maximum of one row of column headers and/or maximum of one column of row headers
+3. No merged or split cells
+4. Adequate cell padding for visual learners.
+Example:
+The table below is a simple table. Reviewed against the preceding requirements list, this table:
+1. Includes a title (Spring Blossoms)
+2. Has one row in which cells are tagged as column headers (Colour Family, Bulbs, Shrubs, Trees), and one
+
+TABLES • 25
+
+column (beginning on the second row) in which the cells are tagged as row headers (Pink, Yellow)
+3. Contains no merged or split cells
+4. Has adequate cell padding to provide space buffering around the data in each cell. (Cell padding in this
+table is set at “10”).
+Spring Blossoms
+Colour Family
+
+Bulbs
+
+Shrubs
+
+Trees
+
+Pink
+
+Tulips
+
+Flowering currant
+
+Ornamental plum
+
+Yellow
+
+Daffodils
+
+Forsythia
+
+Star magnolia
+
+For a student accessing the table through a screen reader, the first row of data will be presented along the lines of:
+• Pink, Bulbs: Tulips
+• Pink, Shrubs: Flowering currant
+• Pink, Trees: Ornamental plum
+
+Weblinks
+
+In this section, we review how to add accessible weblinks to content.
+
+What Are Weblinks?
+Weblink: a link from a file or document to another location (such as a website address) or file, typically activated
+by clicking on a highlighted word or image on the screen.
+File types: .html, .pdf, .doc, .xls
+
+Before You Begin
+Why Are You Including the Weblinks You Have Selected?
+Generally weblinks are included within content to provide the user with additional information that is available at
+a another location.
+
+Who Are You Doing This For?
+This work supports students who:
+• Have a form of cognitive disablity, for example Ann
+• Have a physical disability, for example Trish
+• Are deaf or hard of hearing
+• Are blind or have low vision
+
+26
+
+WEBLINKS • 27
+
+Horton, Sarah; Quesenbery, Whitney. 2014. A Web for Everyone. New York: Rosenfeld
+Media. rosenfeldmedia.com/books/a-web-for-everyone/
+
+What Do You Need To Do?
+Descriptions
+Ensure that all web pages and weblinks have titles that describe a topic or purpose.
+The purpose of the link can be determined by the text alone. That is, you don’t need to include additional
+information justifying the use of the link. You want the link to be meaningful in context. For example, do not use
+generic text such as “click here” or “read more” unless the purpose of the link can be determined by meaning in
+1
+the surrounding content.
+Consider the following examples.
+Example 1 — unclear:
+• Click here for information on the BC Open Textbook Project.
+Example 12 — clear and accessible:
+• Information on the BC Open Textbook Project is available online.
+
+1. https://www.webaccessibility.com/best_practices.php?best_practice_id=1301
+
+28 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+New Tabs/Windows
+In general, it is better if weblinks do not open new windows and tabs since they can be disorienting for people,
+2
+especially people who have difficulty perceiving visual content.
+However, if a link must open in a new window, it is best practice to include a textual reference. For example,
+3
+Information on the BC Open Textbook Project [New Window] is available online.
+
+2. http://www.w3.org/TR/2014/NOTE-WCAG20-TECHS-20140916/G200
+3. http://accessibility.psu.edu/linkshtml
+
+Multimedia
+
+In this section, we provide recommendations to guide your inclusion of accessible multimedia content.
+
+What Is Multimedia?
+Multimedia includes: videos, audio, animations, slideshows
+File types: .mp3, .mp4, ppt., etc.
+
+Before You Begin
+What Type of Multimedia Are You Including?
+Before you can determine what you need to do to make media materials accessible, you need to understand what
+is required for different types of multimedia. Consider the following questions:
+1. Does your multimedia resource include audio narration or instruction? If so, you should:
+• Provide a complete transcript of all speech content and relevant non-speech content in the resource.
+2. Does your multimedia resource include audio that is synchronized with a video presentation? If so, you
+should:
+• Provide captions of all speech content and relevant non-speech content in the resource.
+3. Does your multimedia resource include contextual visuals (e.g., charts, graphs) that are not addressed in the
+spoken content? If so, you should:
+• Provide audio descriptions of relevant visual materials in the resource.
+
+Who Are You Doing This For?
+This work supports students who:
+
+29
+
+30 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+• Are deaf or hard of hearing, for example Steven.
+• Are blind or have low vision, for example Jacob
+• Have a form of cognitive disability
+• Are in a location where they cannot play or hear audio
+• Are not native-English speakers and need written-word formats to support understanding
+
+Steven. Image from Horton, Sarah; Quesenbery, Whitney. 2014. A Web for Everyone.
+New York: Rosenfeld Media. rosenfeldmedia.com/books/a-web-for-everyone/
+
+Jacob. Image from Horton, Sarah; Quesenbery, Whitney. 2014. A Web for Everyone.
+New York: Rosenfeld Media. rosenfeldmedia.com/books/a-web-for-everyone/
+
+MULTI-MEDIA • 31
+
+What Do You Need To Do?
+Transcripts
+Consider what your students would get out of your multimedia resource if they were not able to hear the audio
+portion, or if they had difficulty understanding your spoken word. A text transcript provides students with
+1
+equivalent information to the audio content in a multimedia resource.
+As you work on developing your text transcript, keep in mind the following recommendations about what to
+include:
+1. Speaker’s name
+2. All speech content: If there is speech that is not relevant, it is usually best to indicate that it has been
+excluded from the transcript. For example: “[A & B chatted while slides were loading].”
+3. Relevant descriptions about the speech: Descriptions that convey emotions, mood, etc. are usually
+provided in brackets. For example: “Don’t touch that! [shouted].”
+4. Descriptions of relevant non-speech audio: These are usually provided in brackets. For example: “[metal
+pipes crashing to concrete floor].” Background noise that isn’t relevant can be left out.
+5. Headings and sub-headings: Where they will make the transcript more usable or easy to navigate,
+headings and sub-headings can be helpful aids, especially when the transcript is long. When including
+these, put them in brackets to show that they were not part of the original audio. For example:
+[Introduction]; [Group Discussion]; [Case Study].
+
+Transcripts and third-party videos
+If you are not producing your own video resource but are planning to embed video materials from a thirdparty source (e.g., YouTube), be aware that not all third-party sources include transcripts. While services
+like YouTube technically support transcripts, not all contributors to YouTube include these. If you select a
+video resource that does not already have a transcript, you will need to produce one yourself.*
+*Copyright note: Producing your own transcript for a third-party video could infringe on copyright,
+depending on how the video has been licensed. Before you proceed with producing a transcript for media
+materials you did not create yourself, you should contact the copyright holder of that material to obtain
+permission to do so.
+
+1. Web Content Accessibility Guidelines (WCAG) 2.0, Guideline 1.2 Time-based Media: Provide alternatives for time-based media. Accessed
+from: http://www.w3.org/TR/WCAG20/#media-equiv
+
+32 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+Captions
+Captions are the text that is synchronized with the audio in a video presentation. Captions are important when
+people need to see what’s happening in the video and get the audio information in text at the same time.
+The work you put into creating a text transcript for a video resource can be repurposed to provide the captions.
+Keep in mind the following recommendations about what to include in your captions:
+1. All speech content: If there is speech that is not relevant, it is usually best to indicate that it has been
+excluded from the captions. For example: “[A & B chatted while slides were loading].”
+2. Descriptions of relevant non-speech audio: These are usually provided in brackets. For example: “[metal
+pipes crashing to concrete floor]”; “[background music by XXX plays].” Background noise that isn’t
+relevant can be left out.
+
+Audio Descriptions
+Consider what your students would get out of a multimedia resource if they were not able to see embedded visual
+materials critical for comprehension. Audio descriptions are helpful if visual content (e.g., a chart or a map) in a
+2
+video or presentation provides important context that is not available through the audio alone.
+When describing visual elements in your multimedia resources, keep in mind the following recommendations and
+guidelines.
+1. When contextual visual content on the screen is not described in the audio itself, you will need to provide an
+audio description that is an objective description of the visual element.
+Example:
+To help students fully grasp a concept that you are trying to convey in your video, you have included some
+contextual visual references (e.g., maps, charts, physical demonstrations of a process). However, you realize after
+making the video that the audio portion does not describe these visuals in enough detail for a student like Jacob to
+be able to access all of the concepts you intended to convey.
+In this case, you would need to record an audio description of the visual material that provides enough detail to
+provide students like Jacob with the same content available to visual learners.
+2. Whenever possible, avoid creating the need for audio descriptions in the first place by being proactive at the
+time of recording. If you pay attention to contextual visuals during the recording of the media piece, you may find
+opportunities to convey the visual content within the spoken material itself; you will not need to provide audio
+descriptions of the visual content after the fact.
+Example:
+You are recording a video or presentation that includes a chart that tracks coal production in British Columbia,
+2. Web Content Accessibility Guidelines (WCAG) 2.0, Guideline 1.2.3 Audio Description or Media Alternative (Prerecorded). Accessed from:
+http://www.w3.org/TR/WCAG20/#media-equiv
+
+MULTI-MEDIA • 33
+
+and as part of the presentation you want to focus attention on specific data in the chart. The narrator or presenter
+might point to sections on the chart and say:
+“As you can see, metallurgical coal projection increased by 3 million tonnes over these two years.“
+
+In this case, audio descriptions would be necessary to provide the missing context to students with visual
+disabilities; these students cannot see the data on the chart that tells visual learners what the production figures are
+and for what dates. However, if the narrator or presenter instead says:
+“This chart illustrates that metallurgical coal production in B.C. increased from 23 million tonnes in 1999 to 26
+million tonnes in 2001,”
+
+the visual content is conveyed through the audio and no audio description will be necessary.
+
+Formulas
+
+In this section, we review how to add accessible formulas to the content.
+
+What Are Formulas?
+Formulas include: Math equations or science formulas
+File types: LaTex or MathType
+
+Before You Begin
+Who Are You Doing This For?
+This work supports students who:
+• Are blind or have low vision
+• Have a form of cognitive disability, for example Mark
+• Have a physical disability
+
+34
+
+FORMULAS • 35
+
+Profile of Mark, original Artwork by BCcampus
+
+The following content is a derivative of Equations: Images vs. MathML from Accessibility and Usability at Penn
+State, http://accessibility.psu.edu/equations.
+
+What Do You Need To Do?
+There are several ways to handle equations from images with ALT tags to MathML. Having access to an equation
+editor such as MathType or MathMagic can streamline processing and converting equations considerably. These
+tools are similar to equation editors found in the ANGEL HTML Editor and Microsoft Office.
+
+MathML
+Math ML is a text-based XML markup language designed for math equations. Browsers that support MathML
+are able to translate the XML into a formatted equation. Since MathML with MathJax can be rendered in
+many systems, including HTML, Sites at Penn State, ANGEL and Drupal, it is considered the best choice for
+accessibility.
+Information about creating and viewing MathML is available on that page.
+MathML may vary from system to system and the content can change rapidly.
+
+Image with ALT tag
+A safe option to create an image of an equation (or export it from an equation editor) and then insert the image
+into a document with an ALT tag.
+
+36 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+Note: ALT tags can be written in Nemeth MathSpeak for students who have learned that system.
+Example 1– an equation in HTML:
+
+View the ALT Tag
+ALT= “m equals begin fraction m sub 0 over begin square root 1 minus begin fraction v sup 2 over c sup 2 end
+fraction end square root end fraction”
+
+LaTeX
+LaTeX is a math markup language familiar to many in the science and math community, but unfortunately it is
+not currently supported by screen reader technology. However, it is fairly simple to convert LaTeX to an image or
+MathML in most equation editors.
+To import LaTeX, follow these steps in MathMagic and MathType:
+1. Copy a piece of LaTeX code such as
+m &= \frac{m_0}{\sqrt{1-\frac{v^2}{c^2}}}
+into an equation editor’s main editing window.
+2. The equation should appear fully formated. Make minor adjustments as needed.
+
+At our BCcampus user testing, students indicated that it would helpful to have an audio file of the formula or
+equation. The audio file would be placed beside the formula or equation and would allow the user to hear exactly
+how the formula or equation is interpreted.
+Example — equation with audio:
+
+FORMULAS • 37
+
+http://opentextbc.ca/accessibilitytoolkit/wp-content/uploads/sites/94/2015/02/equation.m4a
+
+Additional Resources
+Math Accessibility at Portland Community College
+In 2012, Portland Community College departments took a closer look at making math accessible to blind students.
+Read more about the math accessibility study on our website: http://www.pcc.edu/access. This video described by
+Audio Eyes: http://www.audioeyes.com
+This video is an Open Educational Resource.
+https://www.youtube.com/watch?v=VlMWINOe_5s&feature=youtu.be
+
+Font size
+
+In this section, we review the two main concerns of font size on the web.
+
+What Is Font Size?
+Font size: The size of text visible on the screen.
+
+Before You Begin
+Who Are You Doing This For?
+This work supports students who:
+• Are blind or have low vision, for example Diana
+• Have a form of cognitive disability
+• Are deaf or hard of hearing
+• Have a physical disability
+
+38
+
+FONT SIZE • 39
+
+Profile of Diana, original artwork by BCcampus.
+
+What Do You Need To Do?
+There are two main concerns when working with font sizes.
+1. Ensuring that default font sizes are not too small.
+2. Ensuring that text can be expanded to 200% on websites.
+
+1
+
+Keep in mind these recommendations and guidelines:
+• 12 point for body text: For most documents, body text should be around 12 points. Small fonts may be
+illegible for some audiences.
+• 9 point for footnotes: If a document contains footnotes or endnotes, the minimum size should be about 9
+points
+• 200% zoom: The Web Content Accessibility Guidelines (WCAG 2.0) recommend ensuring that text can be
+2
+zoomed to 200%. As well, we recommend using liquid layouts that can accommodate 200% text.
+
+1. http://sites.psu.edu/accessibility/fontsizehtml/
+2. Liquid layout are layouts that are based on percentages of the current browser window's size. They flex with the size of the window, even if
+the current viewer changes their browser size as they're viewing the site. Liquid width layouts allow a very efficient use of the space
+provided by any given Web browser window or screen resolution.
+
+Colour Contrast
+
+In this section, we provide guidelines and recommendations about colour contrast in your textbook materials.
+
+What Is Colour Contrast?
+Colour contrast includes: hue, lightness and saturation of text, images, and background
+File types: .doc, .html, .pdf, .jpg, .gif
+
+Before You Begin
+What Role Does Colour Play in the Delivery of Your Content?
+When documents or web pages do not provide enough contrast between foreground elements (e.g., text, images)
+and background elements (e.g., colour, watermark images), some students will have difficulty reading the content.
+Consider the following questions:
+1. Have you presented text- or image-based content on a coloured or textured background? If so, you should:
+• Confirm that there is sufficient contrast between your foreground content and the chosen background colour
+or texture.
+2. Have you included links in your content? If so, you should:
+• Confirm that the colour of your web links is distinct from both your background colour and the colour of
+the surrounding text.
+3. Have you used colour to convey concepts or information? If so, you should:
+• Confirm that you are not using colour alone to convey this information.
+
+Who Are You Doing This For?
+This work supports students who:
+40
+
+COLOUR CONTRAST • 41
+
+• Have low vision, like Diana
+• Have poor contrast vision
+• Are colour blind and cannot differentiate between certain colours
+• Are using a device with monochrome display
+
+Profile of Diana, original artwork by BCcampus
+
+What Do You Need To Do?
+Contrast
+Students with low vision and/or a form of colour blindness may have difficulty reading text that does not contrast
+enough with the background colour you have selected. If the colour palette you have adopted is too subtle (e.g.,
+white text on a pastel background; medium-grey text on a light-grey background), the contrast between your
+foreground and background is probably insufficient for some students.
+Web Content Accessibility Guidelines (WCAG 2.0) require that “the visual presentation of text and images of
+1
+text has a contrast ratio of at least 7:1.” The image below presents four different foreground/background colourcontrast examples to illustrate insufficient and sufficient colour contrast ratios.
+
+1. Web Content Accessibility Guidelines (WCAG) 2.0, Guideline 1.4.6 Contrast (Enhanced). Accessed from: http://www.w3.org/TR/
+UNDERSTANDING-WCAG20/visual-audio-contrast7.html
+
+42 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+Image displays four examples of foreground (text) colour against background colours; only the example on
+the far right presents combinations with sufficient colour contrast.
+
+Not sure how to test your materials for colour contrast ratios?
+There are many online and downloadable tools available to help you evaluate colour contrast ratios. Here
+are a few we have tried and like:
+• WebAIM’s Color Contrast Checker: This web-based tool allows you to select or enter colour
+values to test and provides you with a “pass” or “fail” on your contrast ratio.
+• ACART’s Contrast Checker: This is a straightforward, web-based tool you can use to both check
+colour contrast and view your selections in grey scale. This tool also allows you to keep a history of
+the colour combinations you have tested.
+• Giacomo Mazzocato’s Accessibility Color Wheel: This web-based tool includes several options
+for testing your colour selections, including simulations of three types of colour blindness. You can
+also opt to test what your contrast ratio is when the foreground and background colour selections are
+inverted.
+
+Weblink Colours
+Weblinks must be visually distinct from both the surrounding, non-linked text and background colour. If you do
+not underline your links (or provide some other non-colour cue), you must ensure that you provide both sufficient
+contrast between the link and background colours and between the link colour and that of the surrounding text.
+Web Content Accessibility Guidelines (WCAG 2.0) require a:
+• 4.5:1 contrast between the link text color and the background
+• 3:1 contrast between the link text color and the surrounding non-link text color
+
+2
+
+2. WebAIM (2015), WCAG 2.0 and Link Colors. Accessed from: http://webaim.org/blog/wcag-2-0-and-link-colors/
+
+COLOUR CONTRAST • 43
+
+High-Contrast Mode
+Some students need to see light text on a dark background for it to be readable, while others require dark text
+on a light background. Students with low vision (like Diana) must be able to see content when it is displayed in
+high-contrast mode. This can be a subjective experience, based on individual student needs. We recommend that
+you try testing your text and image-based content as you go by using high-contrast mode on your own computer
+and making adjustments as needed.
+All content items such as text, images, bullets, and table borders must be visible in both regular and high-contrast
+modes.
+
+Not sure how to test your content in high-contrast mode?
+To test the visibility of your content in this mode, turn on high contrast by simultaneously pressing the
+following keys on your (PC) keyboard:
+Left ALT + Left SHIFT + Print Screen.
+To turn off high contrast mode, repeat this step.
+
+Use of Colour*
+You should not rely on colour as the sole means of conveying information and instruction. If the point you are
+making depends on colour to be understood, you will need to edit your materials so that concepts presented in the
+3
+visuals are not lost to those who are colour blind or who require high contrast between colours.
+*This topic is also addressed in the Images section of the Toolkit.
+
+3. Web Content Accessibility Guidelines (WCAG) 2.0, Guideline 1.4.1 Use of Color. Accessed from: http://www.w3.org/TR/
+WCAG20/#visual-audio-contrast
+
+Conclusion
+
+44
+
+Next Steps
+
+This is the first version of this document. We intend for there to be future versions and appreciate any feedback
+you want to send to us.
+We hope we have provided people who are writing open textbooks with a clear understanding of what they need
+to think about as content creators to ensure that their content is accessible.
+
+45
+
+A great supplement to The BC Open Textbook Accessibility Toolkit is the BC Open Textbook Authoring Guide.
+This book is a practical guide to adapting or creating open textbooks using the PressBooks platform.
+
+46
+
+Appendix: Checklist for Accessibility Toolkit
+
+Organizing Content
+? Contents is organized under headings and subheadings
+? Headings and subheadings are used sequentially (e.g. Heading 1, heading 2, etc
+
+Images
+? Images that convey information include Alternative Text (alt-text) descriptions of the image’s content or
+function
+? Graphs, Charts, and Maps also include contextual or supporting details in the text surrounding the image.
+? Images do not rely on colour to convey information.
+? Images that are purely decorative contain empty alternative text descriptions. (Descriptive text is
+unnecessary if the image doesn’t convey contextual content information).
+
+Tables
+? Tables include row and column headers.
+? Table includes title or caption.
+? Table does not have merged or split cells.
+? Table has adequate cell padding
+
+Weblinks
+? The weblink is meaningful in context, does not use generic text such as “click here” or “read more”.
+? Weblinks do not open new windows or tabs.
+? If weblink must open in a new window, a textual reference is included in the link information
+
+47
+
+48 • BC OPEN TEXTBOOK ACCESSIBILITY TOOLKIT
+
+Multimedia
+? A transcript has been made available for a multimedia resource that includes audio narration or
+instruction.
+◦ Transcript includes:
+• Speaker’s name
+• All speech content
+• Relevant descriptions of speech
+• Descriptions of relevant non-speech audio
+• Headings and subheadings
+? Captions of all speech content and relevant non-speech content are included in the multimedia resource
+that includes audio synchronized with a video presentation.
+? Audio descriptions of contextual visuals (graphs, charts, etc) are included in the multimedia resource.
+
+Formulas
+? Formulas have been created using MathML.
+? Formulas are images with alternative text descriptions, if MathML is not an option.
+
+Font Size
+? Font size is 12 point or higher for body text.
+? Font size is 9 point for footnotes or end notes.
+? Font size can be zoomed to 200%.
+All open textbooks from the OpenStax collection are accessible according to this accessibility statement.
+
+Appendix: Redesign or Accommodation Activity
+Guidelines
+
+About the Redesign or Accommodation Activity
+We have grounded the “Redesign or Accommodation?” activity in the student-centeredness of Universal Design
+for Learning (UDL) – a framework that recognizes that we cannot design learning experiences for a singular type
+of student.
+“Redesign or Accommodation?” also incorporates the humanizing-element of student “Personas”, some who you
+will recognize from within the Accessibility Toolkit. Each participant adopts a Persona and advocates from that
+student’s perspective when presented with a Scenario that is based on common or recurring components of course
+delivery.
+In facilitated discussions, participants identify any potential barriers that the Scenario presents for their Personaselves, consider what accommodations to address the barrier would look like—and if their Persona would even
+qualify to receive one, and then determine if the barrier/s could be avoided entirely by applying a UDL-based
+redesign to the course components in question.
+We have created several Scenarios for this activity, but we also recommend you try running scenarios arising
+from your own practice and within your own institution against your Persona-based selves; it may help you to
+proactively identify and address barriers before they affect your students.
+Attached are the assorted “Redesign or Accommodation?” activity materials.
+Redesign or Accommodation Activity Guidelines
+Redesign or Accommodation Scenarios
+Redesign or Accommodation Persona Cards (Detailed)
+Persona Cards for Printing
+Thank you to the University of PEI for having developed and contributed 4 new Persona additions to the
+“Redesign or Accommodation?” activity: Alex, Khaleed, Maridee and Natalie. These new additions were a
+collaborative development between UPEI’s Accessibility Services and the E-Learning Office.
+49
+
+Versioning History
+
+This page provides a record of edits and changes made to this book since its initial publication in the B.C. Open
+Textbook Collection. Whenever edits or updates are made, we make the required changes in the text and provide
+a record and description of those changes here. If the change is minor, the version number increases by 0.1.
+However, if the edits involve substantial updates, the version number goes up to the next full number. The files on
+our website always reflect the most recent version, including the Print on Demand copy.
+If you find an error in this book, please fill out the Report an Open Textbook Error form. If the book was produced
+in partnership with BCcampus, we will contact the author, make the necessary changes, and replace all file types
+as soon as possible. If we did not produce the book, we will make note of the error on this page and contact the
+original producer of the textbook. Once we receive the updated files, this Versioning History page will be updated
+to reflect the edits made.
+Version Date
+
+Change
+
+Details
+
+1.1
+
+2015
+
+Toolkit published.
+
+1.2
+
+September
+19, 2017
+
+Added a link to the Appendix: Checklist for
+Accessibility Toolkit page.
+
+50
+
+Added a link to information describing the accessibility
+standards for all OpenStax books.
+
+
